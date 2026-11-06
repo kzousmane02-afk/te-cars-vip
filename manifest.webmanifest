@@ -1,0 +1,24 @@
+{
+  "id": "./index.html",
+  "name": "TE Cars VIP",
+  "short_name": "TE Cars",
+  "description": "Gestion de flotte et de chauffeurs : documents, entretiens, carburant, affectations, rapports.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EEF1F5",
+  "theme_color": "#1A2F5A",
+  "lang": "fr",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Véhicules", "url": "./index.html#vehicles", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Chauffeurs", "url": "./index.html#drivers", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Sauvegarde", "url": "./index.html#more/backup", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
